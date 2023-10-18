@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class=" icons   ">
+    <ul>
+      <li class=""><a href="#"><i class="fa-brands fa-square-facebook  icon icon1"></i></li></a>
+      <li><a href="#"><i class="fa-brands fa-square-whatsapp   icon  icon2"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-square-x-twitter  icon  icon3"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-linkedin  icon  icon4"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-instagram  icon  icon5"></i></a></li>
+    </ul>   
+  </div>
+  <header>
+    <div class="header1">
+      <nav class="navbar navbar-expand-sm navbar-     bg-     hee">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="javascript:void(0)">
+            <img src="imges/Palestin-log.jpeg" alt="Logo" height="30" >
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item  "><a class="nav-link" href="javascript:void(0)"><span class="h5 text-light">Home</span></a> </li>
+              <li class="nav-item  "><a class="nav-link" href="javascript:void(0)"><span class="h5 text-light">Link</span></a> </li>
+              <div class="dropdown">
+                <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown"><span class="h5 text-light">places</span></button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Alquds</a></li>
+                  <li><a class="dropdown-item" href="#">Gaza</a></li>
+                  <hr>
+                  <li><a class="dropdown-item" href="#">Ramallah</a></li>
+                  <li><a class="dropdown-item" href="#">Hebron</a></li>
+                  <li><a class="dropdown-item" href="#">Nabluse</a></li>
+                  <li><a class="dropdown-item" href="#">Jeenin</a></li>
+                  <li><a class="dropdown-item" href="#">Bethlehem</a></li>
+                </ul>
+            </ul>
+           <form class="d-flex  ">
+             <input class=" form-contro me-3  pp" type="text" placeholder="Search">
+             <button class="btn btn-dark  me-2" type="button">Search</button>
+             <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">login</button>
+            </form> 
+          </div>    <!-- collapse -->   
+       </div>  <!-- container-fluid  -->
+      </nav>
+    </div> <!-- header1 -->
+    <div class="container ">
+      <div class="modal  " id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header   bd-info">
+                <h4 class="modal-title">Login</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div> <!-- modal-header -->
+              <div class="modal-body   ">
+                <div class="container mt-3">
+                  <form action="/action_page.php">
+                  <div class="mb-3 mt-3">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                  </div> <!-- mb-3 mt-3 -->
+                  <div class="mb-3">
+                     <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                   </div> <!-- mb-3 -->
+                  <div class="form-check mb-3">
+                    <form action="/action_page.php">
+                  <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked>
+                    <label class="form-check-label" for="mySwitch">Remmermber me</label>
+                   </div> <!-- form-check form-switch -->
+             </div> <!--modal-content  -->
+          </div> <!-- modal-dialog -->
+          <div class="modal-footer">
+            <button class="btn btn-primary mr " type="button"> login</button>
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div> <!-- modal-footer -->
+       </div> <!-- modal -->
+     </div> <!-- container -->  
+  </header>
+    
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imges/main القدس.jpg" alt="Los Angeles" class="d-block man-img" width="100%" height="600">
+      <div style="background: rgba(145, 46, 46, 0.39);" class="carousel-caption ">
+        <h3> Alquds</h3>
+        <p>Capital of the State of Palestine</p>
+        <button class="btn btn-main   me-2" type="button" >Visit Us</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="imges/البحر الميت.jpg" alt="Chicago" class="d-block man-img" width="100%" height="600">
+      <div style="background: rgba(145, 46, 46, 0.39);" class="carousel-caption ">
+        <h3>Dead Sea</h3>
+        <p>It extends along the west coast</p>
+        <button class="btn btn-main  me-2" type="button">Visit Us</button>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img src="imges/المسجد الابراهيمي.jpg" alt="New york" class="d-block man-img" width="100%" height="600">
+      <div style="background: rgba(145, 46, 46, 0.39);" class="carousel-caption ">
+        <h3>The Ibrahimi Mosque</h3>
+        <p>It is also known as the Ibrahimi Mosque</p>
+        <button class="btn btn-main  me-2" type="button">Visit Us</button>
+      </div>  
+    </div>
+    <div class="carousel-item">
+      <img src="imges/كنيسه المهد.jpg" alt="Chicago" class="d-block man-img" width="100%" height="600">
+      <div style="background: rgba(145, 46, 46, 0.39);" class="carousel-caption ">
+        <h3>Church of the Nativity</h3>
+        <p>Bethlehem Palestine</p>
+        <button class="btn btn-main  me-2" type="button">Visit Us</button>
+      </div> 
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<div  class="  p-4   information  rounded-4 " style="background-color: rgba(224, 224, 224, 1);" >
+  <h2  class="text-danger">Welcome</h2>
+  <p class="">Palestine, also known as "Palestine", is a historical and geographical region located in the Middle East. Palestine has a rich and complex history, as this land has witnessed many <br> events and changes throughout the ages. Palestine is a sacred place for many world religions, including Islam, Christianity, and Judaism, making it an important place for many  <br> people around the world.</p>
+  <button class="btn  btn-lg btn-main">learn more</button>
+</div> <!-- information -->
+<br>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<div class="title   bg-dark   text-center  p-5">
+<h2 class="text-light">The most famous historical sites in Palestine</h2>
+</div>
+<!-- ///////////////////////////////////////////////////////////////////////////////// -->
+<div id="accordion">
+  <div class="card">
+    <div class="card-header">
+      <a class="btn " data-bs-toggle="collapse" href="#collapseOne">
+        <p class="h4">Alquds</p>
+        </a>
+    </div>
+    <div id="collapseOne" class="collapse " data-bs-parent="#accordion">
+      <div class="card-body">
+        Alquds: Alquds is the Palestinian capital and the location of many important historical monuments including the Al-Aqsa Mosque, the Holy Shrine Church, and the Buraq Wall. <br> Alquds is considered sacred in three religions: Islam, Christianity, and Judaism
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+        <p class="h4">Bethlehem</p>
+        </a>
+    </div>
+    <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        Bethlehem: Bethlehem is considered the alleged birth city of Jesus Christ, and is famous for the Church of the Nativity and the Church of St. Catherine    
+        </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+        <p class="h4">Gaza</p>
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        Gaza is a city located in the south of the Palestinian Gaza Strip on the eastern coast of the Mediterranean Sea. It is one of the major cities in Palestine and has a long and diverse history. Ancient and modern.      </div>
+    </div>
+  </div>
+</div>
+</div>
+<br>
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<div class="title   bg-dark   text-center  p-3    rounded">
+  <h2 class="text-light">Translate From Arabic To English</h2>
+  </div>
+  <div class="bg-  p-5"  style="background-color: rgba(27, 94, 32, 1);">
+    <span class="text-light h4 ">Write and Translate</span> <span class=" h4"  style="color:rgb(0, 0, 0);">Press Here</span>
+    <button type="button"  class="btn btn-trsns  my-2  button"  data-bs-toggle="tooltip" title="copide" style="display: block;">copy</button>
+    <textarea class="form-control" rows="5" placeholder="translate" ></textarea>
+  </div>
+<br>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<div class="title   bg-dark   text-center  p-3    rounded">
+  <h2 class="text-light">Translate From Arabic To French</h2>
+  </div>
+  <div class="bg-   p-5"    style="background-color: rgba(27, 94, 32, 1);">
+    <span class="text-light h4 ">Write and Translate</span> <span class=" h4"  style="color:rgb(0, 0, 0);">Press Here</span>
+    <button type="button" class="btn btn-trsns  my-2  button"   data-bs-toggle="tooltip" title="copide" style="display: block;">copy</button>
+    <textarea class="form-control" rows="5" placeholder="translate" ></textarea>
+  </div>
+<br>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<div class="title   bg-dark   text-center  p-3    rounded">
+  <h2 class="text-light">Translate From Arabic To German</h2>
+  </div>
+  <div class="bg-  p-5"    style="background-color: rgba(27, 94, 32, 1);">
+    <span class="text-light h4 ">Write and Translate</span> <span class=" h4"  style="color:rgb(0, 0, 0);">Press Here</span>
+    <button type="button"  class="btn btn-trsns  my-2  button"  data-bs-toggle="tooltip" title="copide"  style="display: block;">copy</button>
+    <textarea class="form-control" rows="5" placeholder="translate" ></textarea>
+  </div>
+<br>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<div class="man">
+
+</div>
+<!-- //////////////////////////////////////////////////////////////////////////////////// -->
+<div class="title   bg-dark   text-center  rounded  p-3">
+  <h2 class="text-light">The most famous archaeological places</h2>
+  </div>
+  <br>
+  <!-- ////////////////////////////////////////////////////////////////////////////////////////////// -->
+  <section>
+    <div class="container">
+      <div class="row d-flex justify-content-around">
+        <div class="col-lg-3 col-12 bg-light border rounded  imges">
+          <figure>
+            <img class="img-thumbnail " src="imges/القدس.jpeg" alt=""  style="height: 300px;">
+          </figure>
+          <span class="text-dark h5">Al-Aqsa Mosque</span>
+          <button class="btn btn-dark float-end">know moer</button>
+          <p class="text-dark mt-2 h6">The third of the Two Holy Mosques </p>
+        </div > <!-- col -->
+        <div class="col-lg-3 col-12 bg-light border rounded  imges"> 
+          <figure>
+            <img class="img-thumbnail " src="imges/كنيسه المهد.jpg" alt="" style="height: 300px;">
+          </figure>
+          <span class="text-dark h5">Church of the Nativity</span>
+          <button class="btn btn-dark float-end">know moer</button>
+          <p class="text-dark mt-2 h6">It is believed to contain the site of the Grotto of the Nativity where Jesus Christ was born </p>
+        </div> <!-- col -->
+        <div class="col-lg-3 col-12 bg-light border rounded  imges">
+          <figure>
+            <img class="img-thumbnail " src="imges/جسر الشهداء.jpeg" style="height: 300px;">
+          </figure>
+          <span class="text-dark h5">Martyrs Bridge</span>
+          <button class="btn btn-dark float-end">know moer</button>
+          <p class="text-dark mt-2 h6">An old bridge dating back to the Crusader and Ottoman eras </p>
+        </div> <!-- col -->
+      </div> <!-- row -->
+    </div> <!-- container -->
+  </section>
+  <br>
+  <!-- ////////////////////////////////////////////////////////////////////////////// -->
+  <section>
+    <div class="container">
+      <div class="row d-flex justify-content-around">
+        <div class="col-lg-3 col-12 bg-light border rounded  imges">
+          <figure>
+            <img class="img-thumbnail " src="imges/الكرمل.jpg" alt=""  style="height: 300px;">
+          </figure>
+          <span class="text-dark h5">Old town of Carmel</span>
+          <button class="btn btn-dark float-end">know moer</button>
+          <p class="text-dark mt-2 h6">It contains many markets and traditional stores </p>
+        </div > <!-- col -->
+        <div class="col-lg-3 col-12 bg-light border rounded  imges"> 
+          <figure>
+            <img class="img-thumbnail " src="imges/المسجد الابراهيمي.jpg" alt="" style="height: 300px;">
+          </figure>
+          <span class="text-light h5">The Ibrahimi Mosque</span>
+          <button class="btn btn-dark float-end">know moer</button>
+          <p class="text-dark mt-2 h6">It is also known as the Tomb of the Patriarchs and is considered a holy site for Jews and Muslims </p>
+        </div> <!-- col -->
+        <div class="col-lg-3 col-12 bg-light border rounded imges ">
+          <figure>
+            <img class="img-thumbnail " src="imges/المسجد الاوموي.webp" style="height: 300px;">
+          </figure>
+          <span class="text-dark h5">Amawy mosque</span>
+          <button class="btn btn-dark float-end">know moer</button>
+          <p class="text-dark mt-2 h6">An ancient mosque dating back to the Umayyad erat </p>
+        </div> <!-- col -->
+      </div> <!-- row -->
+    </div> <!-- container -->
+  </section>
+<br>
+ <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+ <section>
+  <div class="container">
+    <div class="row ">
+      <div class="col-lg-3 col-12 bg-light border rounded   me-auto imges">
+        <figure>
+          <img class="img-thumbnail " src="imges/جرزيم.jpg" alt=""  style="height: 300px;">
+        </figure>
+        <span class="text-dark h5">Gerizim website</span>
+        <button class="btn btn-dark float-end">know moer</button>
+        <p class="text-dark mt-2 h6">It includes archaeological sites representing past eras </p>
+      </div > <!-- col -->
+      <div class="col-lg-3 col-12 bg-light border rounded   ms-auto imges">
+        <figure>
+          <img class="img-thumbnail " src="imges/طبريا.jpeg" style="height: 300px;">
+        </figure>
+        <span class="text-dark h5">Tiberius</span>
+        <button class="btn btn-dark float-end">know moer</button>
+        <p class="text-dark mt-2 h6">Tiberias is located on the shore of the Sea of Galilee and is famous for its many historical and archaeological monuments</p>
+      </div> <!-- col -->
+    </div> <!-- row -->
+  </div> <!-- container -->
+</section>
+<br>
+ <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
+  <div class="man">
+
+  </div>
+  <br>
+  <hr>
+  <br>
+  <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+  <div class="title   bg-dark   text-center  rounded  p-5">
+    <h2 class="text-light">THANK YOU</h2>
+  </div>
+  <br>
+<!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+<section>
+    <div class="container">
+    <div class="row d-flex justify-content-around">
+      <div class="col-lg-3 col-12   rounded-4   eng" style="filter: brightness(.6);">
+          <h3>All regards and appreciation</h3>
+        <i class="fa-regular fa-clock"></i>
+        <span class="text-light bg-dark">7/October/2023</span>
+        <img class="rounded-circle  mt-5" src="imges/Arabic word عبداللہ logo.jpeg" alt="" height="200px">
+        <br>
+        <span class="h6  text-dark bg-light">Abdallah</span>
+        <br>
+        <span class="h6  text-dark bg-light"> Front-end</span>
+      </div > <!-- col -->
+      <div class="col-lg-3 col-12   rounded-4   eng" style="filter: brightness(.6);">
+       <h3>All regards and appreciation</h3>
+       <i class="fa-regular fa-clock"></i>
+       <span class="text-light bg-dark">7/October/2023</span>
+       <img class="rounded-circle mt-5" src="imges/Arabic word عبداللہ logo.jpeg" alt="" height="200px">
+       <br>
+       <span class="h6  text-dark bg-light">Abdallah</span>
+       <br>
+       <span class="h6  text-dark bg-light"> Front-end</span>
+     </div > <!-- col -->
+     <div class="col-lg-3 col-12   rounded-4   eng" style="filter: brightness(.6);">
+       <h3>All regards and appreciation</h3>
+       <i class="fa-regular fa-clock"></i>
+       <span class="text-light bg-dark">7/October/2023</span>
+       <img class="rounded-circle mt-5" src="imges/Arabic word عبداللہ logo.jpeg" alt="" height="200px">
+       <br>
+       <span class="h6  text-dark bg-light">Abdallah</span>
+       <br>
+        <span class="h6  text-dark bg-light"> Front-end</span>
+      </div > <!-- col -->
+    </div> <!-- row -->
+    </div> <!-- container -->
+  </section>
+  <br>
+  <hr>
+  <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
+ <h2 class="text-center text -info">News Palestine</h2>
+ <div class="container  bg-light  rounded-4 box-sh">
+  <div class="row">
+   <div class="infor col-lg-8 col-8">
+     <h2 class="text-dark">Gaza Now</h2>
+    <i class="fa-solid fa-calendar-days"></i>
+    <span>  sat, October ,7,  2023</span>
+    <div class="lin "></div>
+    <p>Violent escalation in Gaza: Currently, the Gaza Strip is witnessing an escalation in violence and tensions between Israel and Hamas. The clashes included Israeli air and ground attacks and naval bombardment.
+      . Civilian casualties: The war caused many civilian casualties, including children and women. Residential buildings and infrastructure were destroyed.
+      . Mediation and aid efforts: There are international efforts to stop the violence and mediate the conflict. Humanitarian aid was sent to the area to help the affected residents.
+      . Difficult humanitarian situation Current events have caused the humanitarian situation in Gaza to deteriorate, with shortages in basic supplies and an increase in the population's need for assistance.</p>
+    <div class="sp mt-5">
+     <span class=" p-1 btn btn-danger rounded">
+       <i class="fa-solid fa-podcast"></i>
+       <span>podcast</span>
+     </span>
+     <span class=" p-1 btn btn-danger rounded  mx-2">
+       <i class="fa-solid fa-clock"></i>
+       <span>55min</span>
+     </span>
+     <span class=" p-1 btn btn-danger rounded">
+       <i class="fa-solid fa-play"></i>
+        <span>Play Episode</span>
+     </span>
+    </div>
+    </div>
+     <div class="imge col-lg-4 col-4">
+       <figure>
+         <img class="img-news" src="imges/غزه الان يمين.png" alt="" width="350" height="350" >
+       </figure>
+     </div>
+  </div>
+  </div>
+  <br>
+  <br>
+ <!-- ///////////////////////////////////////////////////////////////////// -->
+ <div class="container  bg-light  rounded-4 box-sh">
+  <div class="row">
+    <div class="imge col-lg-4 col-4">
+      <figure>
+        <img class="img-news" src="imges/غزه الان يسار.png" alt="" width="350" height="350" >
+      </figure>
+    </div>
+   <div class="infor col-lg-8 col-8">
+     <h2 class="text-dark">Gaza Now</h2>
+    <i class="fa-solid fa-calendar-days"></i>
+    <span> sat, October ,7,  2023</span>
+    <div class="lin "></div>
+    <p>Violent escalation in Gaza: Currently, the Gaza Strip is witnessing an escalation in violence and tensions between Israel and Hamas. The clashes included Israeli air and ground attacks and naval bombardment.
+      . Civilian casualties: The war caused many civilian casualties, including children and women. Residential buildings and infrastructure were destroyed.
+      . Mediation and aid efforts: There are international efforts to stop the violence and mediate the conflict. Humanitarian aid was sent to the area to help the affected residents.
+      . Difficult humanitarian situation Current events have caused the humanitarian situation in Gaza to deteriorate, with shortages in basic supplies and an increase in the population's need for assistance.</p>
+    <div class="sp mt-5">
+     <span class=" p-1 btn btn-danger rounded">
+       <i class="fa-solid fa-podcast"></i>
+       <span>podcast</span>
+     </span>
+     <span class=" p-1 btn btn-danger rounded  mx-2">
+       <i class="fa-solid fa-clock"></i>
+       <span>55min</span>
+     </span>
+     <span class=" p-1 btn btn-danger rounded">
+       <i class="fa-solid fa-play"></i>
+        <span>Play Episode</span>
+     </span>
+    </div>
+    </div>
+  </div>
+  </div>
+  <br>
+  <br>
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<div class="container  bg-light  rounded-4 box-sh">
+  <div class="row">
+   <div class="infor col-lg-8 col-8">
+     <h2 class="text-dark">Gaza Now</h2>
+    <i class="fa-solid fa-calendar-days"></i>
+    <span>  sat, October ,7,  2023</span>
+    <div class="lin "></div>
+    <p>Violent escalation in Gaza: Currently, the Gaza Strip is witnessing an escalation in violence and tensions between Israel and Hamas. The clashes included Israeli air and ground attacks and naval bombardment.
+      . Civilian casualties: The war caused many civilian casualties, including children and women. Residential buildings and infrastructure were destroyed.
+      . Mediation and aid efforts: There are international efforts to stop the violence and mediate the conflict. Humanitarian aid was sent to the area to help the affected residents.
+      . Difficult humanitarian situation Current events have caused the humanitarian situation in Gaza to deteriorate, with shortages in basic supplies and an increase in the population's need for assistance.</p>
+    <div class="sp mt-5">
+     <span class=" p-1 btn btn-danger rounded">
+       <i class="fa-solid fa-podcast"></i>
+       <span>podcast</span>
+     </span>
+     <span class=" p-1 btn btn-danger rounded  mx-2">
+       <i class="fa-solid fa-clock"></i>
+       <span>55min</span>
+     </span>
+     <span class=" p-1 btn btn-danger rounded">
+       <i class="fa-solid fa-play"></i>
+        <span>Play Episode</span>
+     </span>
+    </div>
+    </div>
+     <div class="imge col-lg-4 col-4">
+       <figure>
+         <img class="img-news" src="imges/غزه الان يمين.png" alt="" width="350" height="350" >
+       </figure>
+     </div>
+  </div>
+  </div>
+  <br>
+  <br>
+<!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
+<div class="container  bg-light  rounded-4 box-sh">
+  <div class="row">
+    <div class="imge col-lg-4 col-4">
+      <figure>
+        <img class="img-news" src="imges/غزه الان يسار.png" alt="" width="350" height="350" >
+      </figure>
+    </div>
+   <div class="infor col-lg-8 col-8">
+     <h2 class="text-dark">Gaza Now</h2>
+    <i class="fa-solid fa-calendar-days"></i>
+    <span> sat, October ,7,  2023</span>
+    <div class="lin "></div>
+    <p>Violent escalation in Gaza: Currently, the Gaza Strip is witnessing an escalation in violence and tensions between Israel and Hamas. The clashes included Israeli air and ground attacks and naval bombardment.
+      . Civilian casualties: The war caused many civilian casualties, including children and women. Residential buildings and infrastructure were destroyed.
+      . Mediation and aid efforts: There are international efforts to stop the violence and mediate the conflict. Humanitarian aid was sent to the area to help the affected residents.
+      . Difficult humanitarian situation Current events have caused the humanitarian situation in Gaza to deteriorate, with shortages in basic supplies and an increase in the population's need for assistance.</p>
+    <div class="sp mt-5">
+     <span class=" p-1 btn btn-danger rounded">
+       <i class="fa-solid fa-podcast"></i>
+       <span>podcast</span>
+     </span>
+     <span class=" p-1 btn btn-danger rounded  mx-2">
+       <i class="fa-solid fa-clock"></i>
+       <span>55min</span>
+     </span>
+     <span class=" p-1 btn btn-danger rounded">
+       <i class="fa-solid fa-play"></i>
+        <span>Play Episode</span>
+     </span>
+    </div>
+    </div>
+  </div>
+  </div>
+  <br>
+  <br>
+  <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
+  <div class="container">
+    <div class="row  d-flex justify-content-between">
+      <div class="col-lg-2 bg-light text-center rounded-4  box-sh">
+        <p class="h5">Watch vidios</p>
+       <a href="#"><i class="fa-brands fa-square-facebook  icon-l"></i></a> 
+        <p class="h5">Go link</p>
+      </div>
+      <div class="col-lg-2 bg-light text-center rounded-4  box-sh" >
+        <p class="h5">Follow</p>
+       <a href="#"><i class="fa-brands fa-square-whatsapp   icon-l"></i></a> 
+        <p class="h5">Go link</p>
+      </div>
+      <div class="col-lg-2 bg-light text-center rounded-4  box-sh" >
+        <p class="h5"> Subscriber Now</p>
+       <a href="#"><i class="fa-brands fa-square-x-twitter  icon-l"></i></a> 
+        <p class="h5">Go link</p>
+      </div>
+      <div class="col-lg-2 bg-light text-center rounded-4  box-sh" >
+        <p class="h5">Like the Page</p>
+       <a href="#"><i class="fa-brands fa-instagram  icon-l"></i></a> 
+        <p class="h5">Go link</p>
+      </div>
+    </div>
+  </div>
+  <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+<br>
+<hr>
+<br>
+<div class="container">
+  <div class="row d-flex justify-content-between">
+    <div class="col-lg-3">
+      <img src="imges/Arabic word عبداللہ logo.jpeg" width="100" height="100" class="c-img">
+      <span class="h6">Abdallah Mohamed</span>
+    </div>
+    <div class="col-lg-3">
+      <img src="imges/Arabic word عبداللہ logo.jpeg" width="100" height="100" class="c-img">
+      <span class="h6">Abdallah Mohamed</span>
+    </div>
+    <div class="col-lg-3">
+      <img src="imges/Arabic word عبداللہ logo.jpeg" width="100" height="100" class="c-img">
+      <span class="h6">Abdallah Mohamed</span>
+    </div>
+  </div>
+</div>
+<!-- /////////////////////////////////////////////////////////////////////////////// -->
+<br>
+<div class="bg-danger" style="height: 80px;">
+  <h2 class="text-info text-light bg-danger text-center"> Designed by Abdallah Mohamed Abo Bakr Salama</h2>
+</div>
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/scripte.js"></script>
+</body>

@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 7400px;
+    font-family: "pt-sans",sans-serif;
+
+}
+.header1{
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    z-index: 3;
+}
+.hee{
+    background-color: rgb(198, 40, 40);
+}
+.btn-main{
+    color: rgb(252, 252, 252);
+    background: rgb(198, 40, 40);
+}
+.btn-trsns{
+    background: black;
+    color: #ffffff;
+}
+.btn-trsns:hover{
+    background: rgb(39, 39, 39);
+    color: #ffffff;
+}
+.icons ul{
+    position: absolute;
+    margin-top: 40px;
+}
+ .icons ul li{
+    margin-top: 50px;
+}
+.icon{
+    right: 0;
+    margin-right: 10px;
+    position: fixed;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    z-index: 3;
+}
+
+.icon ul li a{
+    text-decoration: none;
+}
+
+.icon-l{
+    font-size: 120px;
+    color: rgb(198, 40, 40);
+}
+
+.man{
+    height: 50vh;
+    background: url(../imges/Palestine\ _\ فلسطين.jpeg) no-repeat   fixed    ;
+     background-position: center  -420px;
+    background-size: cover;
+}
+
+.imges{
+    position: relative;
+}
+.imges:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(29, 100, 180, 0.541);
+    opacity: 0; 
+}
+.imges:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+    transition: .9s;
+}
+.imges{
+    position: relative;
+}
+.imges::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(29, 100, 180, 0.541);
+    opacity: 0; 
+}
+.imges:hover::before {
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+    transition: .9s;
+}
+.content-{
+    width: 300px;
+    height: 400px;
+}
+.eng{
+    background: url(../imges/Naruto\ Palestine.jpeg) no-repeat ;
+    background-size: cover;
+    background-position: -100px;
+    transition: .5s;
+}
+.eng:hover{
+    transform: scale(.9);
+}
+ .mr{
+    margin-right: 300px;
+}
+.lin{
+    width: 100px;
+    height: 7px;
+    background: rgb(175, 27, 27);
+    border-radius: 10px;
+    transition: .5s;
+}
+.infor:hover   .lin{
+    transform: scale(1.2);
+}
+.c-img{
+    border-radius: 50px;
+}
+.box-sh{
+    box-shadow: 10px  10px  15px  10px  rgb(202, 202, 202);
+}
+.text-d{
+    text-decoration: none;
+    
+}
+@media (max-width: 768px){
+    .img-news{
+        width: 140px;
+        height: 600px;
+    }
+    .icon{
+        right: 50px;
+    }
+}
